@@ -1,0 +1,10 @@
+com\apiautomation\Main.class
+com\apiautomation\model\response\ResponseListObject.class
+com\apiautomation\model\request\RequestAddObject.class
+com\apiautomation\model\response\ResponseAddObject$Data.class
+com\apiautomation\model\request\RequestAddObject$Data.class
+com\apiautomation\model\response\ResponseAddObject.class
+com\apiautomation\model\response\ResponseSingelObject.class
+com\apiautomation\model\response\ResponseSingelObject$Data.class
+com\apiautomation\model\request\RequestLogin.class
+com\apiautomation\model\response\ResponseListObject$Data.class

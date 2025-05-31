@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 7.975 s <<< FAILURE! - in TestSuite
+cucumber.runners.CucumberRunner.runScenario["Add a new object and verify its details", "End-to-End API Testing for Object Management"](1)  Time elapsed: 4.663 s  <<< FAILURE!
+java.lang.AssertionError: expected [201] but found [200]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at org.testng.Assert.assertEquals(Assert.java:1429)
+	at cucumber.definitions.ObjectDefinitions.the_response_status_code_should_be(ObjectDefinitions.java:82)
+	at ✽.the response status code should be 201(file:///D:/Bootcamp%20Intensive%20Selenium/Projects/Tugas/apiautomation/src/test/resources/objects.feature:17)
+

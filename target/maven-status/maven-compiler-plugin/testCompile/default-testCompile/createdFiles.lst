@@ -1,0 +1,5 @@
+scenario\RestAssuredE2ETest.class
+cucumber\definitions\ObjectDefinitions.class
+cucumber\runners\CucumberRunner.class
+restassured\RestAssuredImpl.class
+scenario\E2EPojoImpl.class

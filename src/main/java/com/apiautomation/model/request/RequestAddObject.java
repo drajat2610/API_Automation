@@ -26,7 +26,7 @@ public class RequestAddObject {
 
     public static class Data {
         public Data(int i, double d, String string, String string2, String string3, String string4, String string5) {
-            //TODO Auto-generated constructor stub
+            // Constructor to initialize all fields
             this.year = String.valueOf(i);
             this.price = String.valueOf(d);
             this.cpuModel = string;
