@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="7.975" tests="2" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="17.883" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="24"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ID"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-24\bin"/>
-    <property name="sun.java.command" value="C:\Users\DrajatPamuji\AppData\Local\Temp\surefire15655503169103804110\surefirebooter-20250601003710288_3.jar C:\Users\DrajatPamuji\AppData\Local\Temp\surefire15655503169103804110 2025-06-01T00-37-10_163-jvmRun1 surefire-20250601003710288_1tmp surefire_0-20250601003710288_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\DrajatPamuji\AppData\Local\Temp\surefire7132292850665895302\surefirebooter-20250601210143920_3.jar C:\Users\DrajatPamuji\AppData\Local\Temp\surefire7132292850665895302 2025-06-01T21-01-43_459-jvmRun1 surefire-20250601210143920_1tmp surefire_0-20250601210143920_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Bootcamp Intensive Selenium\Projects\Tugas\apiautomation\target\test-classes;D:\Bootcamp Intensive Selenium\Projects\Tugas\apiautomation\target\classes;C:\Users\DrajatPamuji\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\DrajatPamuji\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\DrajatPamuji\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\DrajatPamuji\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\DrajatPamuji\.m2\repository\io\rest-assured\rest-assured\5.5.1\rest-assured-5.5.1.jar;C:\Users\DrajatPamuji\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\DrajatPamuji\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\DrajatPamuji\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\DrajatPamuji\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\DrajatPamuji\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\DrajatPamuji\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\DrajatPamuji\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\DrajatPamuji\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\DrajatPamuji\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\DrajatPamuji\.m2\repository\io\rest-assured\json-path\5.5.1\json-path-5.5.1.jar;C:\Users\DrajatPamuji\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\DrajatPamuji\.m2\repository\io\rest-assured\rest-assured-common\5.5.1\rest-assured-common-5.5.1.jar;C:\Users\DrajatPamuji\.m2\repository\io\rest-assured\xml-path\5.5.1\xml-path-5.5.1.jar;C:\Users\DrajatPamuji\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.0\jackson-databind-2.15.0.jar;C:\Users\DrajatPamuji\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.0\jackson-annotations-2.15.0.jar;C:\Users\DrajatPamuji\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.0\jackson-core-2.15.0.jar;C:\Users\DrajatPamuji\.m2\repository\io\rest-assured\json-schema-validator\5.4.0\json-schema-validator-5.4.0.jar;C:\Users\DrajatPamuji\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\DrajatPamuji\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\DrajatPamuji\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\DrajatPamuji\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\DrajatPamuji\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\DrajatPamuji\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\DrajatPamuji\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\DrajatPamuji\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\DrajatPamuji\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\DrajatPamuji\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\DrajatPamuji\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\DrajatPamuji\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\DrajatPamuji\.m2\repository\com\google\guava\guava\32.0.1-jre\guava-32.0.1-jre.jar;C:\Users\DrajatPamuji\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\DrajatPamuji\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\DrajatPamuji\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\DrajatPamuji\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\DrajatPamuji\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\DrajatPamuji\.m2\repository\io\cucumber\cucumber-java\7.22.2\cucumber-java-7.22.2.jar;C:\Users\DrajatPamuji\.m2\repository\io\cucumber\cucumber-core\7.22.2\cucumber-core-7.22.2.jar;C:\Users\DrajatPamuji\.m2\repository\io\cucumber\cucumber-gherkin\7.22.2\cucumber-gherkin-7.22.2.jar;C:\Users\DrajatPamuji\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.22.2\cucumber-gherkin-messages-7.22.2.jar;C:\Users\DrajatPamuji\.m2\repository\io\cucumber\gherkin\32.1.1\gherkin-32.1.1.jar;C:\Users\DrajatPamuji\.m2\repository\io\cucumber\messages\27.2.0\messages-27.2.0.jar;C:\Users\DrajatPamuji\.m2\repository\io\cucumber\testng-xml-formatter\0.3.1\testng-xml-formatter-0.3.1.jar;C:\Users\DrajatPamuji\.m2\repository\io\cucumber\query\13.2.0\query-13.2.0.jar;C:\Users\DrajatPamuji\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\DrajatPamuji\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\DrajatPamuji\.m2\repository\io\cucumber\datatable\7.22.2\datatable-7.22.2.jar;C:\Users\DrajatPamuji\.m2\repository\io\cucumber\cucumber-plugin\7.22.2\cucumber-plugin-7.22.2.jar;C:\Users\DrajatPamuji\.m2\repository\io\cucumber\docstring\7.22.2\docstring-7.22.2.jar;C:\Users\DrajatPamuji\.m2\repository\io\cucumber\html-formatter\21.10.1\html-formatter-21.10.1.jar;C:\Users\DrajatPamuji\.m2\repository\io\cucumber\junit-xml-formatter\0.7.1\junit-xml-formatter-0.7.1.jar;C:\Users\DrajatPamuji\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\DrajatPamuji\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\DrajatPamuji\.m2\repository\io\cucumber\cucumber-testng\7.22.2\cucumber-testng-7.22.2.jar;C:\Users\DrajatPamuji\.m2\repository\net\masterthought\cucumber-reporting\5.7.0\cucumber-reporting-5.7.0.jar;C:\Users\DrajatPamuji\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.13.0\jackson-datatype-jsr310-2.13.0.jar;C:\Users\DrajatPamuji\.m2\repository\org\apache\velocity\velocity-engine-core\2.3\velocity-engine-core-2.3.jar;C:\Users\DrajatPamuji\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\DrajatPamuji\.m2\repository\joda-time\joda-time\2.10.10\joda-time-2.10.10.jar;C:\Users\DrajatPamuji\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\DrajatPamuji\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\DrajatPamuji\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar;C:\Users\DrajatPamuji\.m2\repository\org\jsoup\jsoup\1.14.2\jsoup-1.14.2.jar;C:\Users\DrajatPamuji\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20211018.2\owasp-java-html-sanitizer-20211018.2.jar;C:\Users\DrajatPamuji\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\DrajatPamuji\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\DrajatPamuji\AppData\Local\Temp\surefire15655503169103804110\surefirebooter-20250601003710288_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\DrajatPamuji\AppData\Local\Temp\surefire7132292850665895302\surefirebooter-20250601210143920_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="24.0.1+9-30"/>
@@ -58,18 +58,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="68.0"/>
   </properties>
-  <testcase name="runScenario[&quot;Add a new object and verify its details&quot;, &quot;End-to-End API Testing for Object Management&quot;](1)" classname="cucumber.runners.CucumberRunner" time="4.663">
-    <failure message="expected [201] but found [200]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [201] but found [200]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:1419)
-	at org.testng.Assert.assertEquals(Assert.java:1383)
-	at org.testng.Assert.assertEquals(Assert.java:1429)
-	at cucumber.definitions.ObjectDefinitions.the_response_status_code_should_be(ObjectDefinitions.java:82)
-	at ✽.the response status code should be 201(file:///D:/Bootcamp%20Intensive%20Selenium/Projects/Tugas/apiautomation/src/test/resources/objects.feature:17)
-]]></failure>
+  <testcase name="runScenario[&quot;Add a new object and verify its details&quot;, &quot;End-to-End API Testing for Object Management&quot;](1)" classname="cucumber.runners.CucumberRunner" time="12.238">
     <system-out><![CDATA[
 Scenario: Add a new object and verify its details                      # src/test/resources/objects.feature:7
   Given the API is available                                           # cucumber.definitions.ObjectDefinitions.the_api_is_available()
@@ -83,17 +72,7 @@ Scenario: Add a new object and verify its details                      # src/tes
     | color        | silver              |
     | capacity     | 2 cpu               |
     | screenSize   | 14 Inch             |
-  Then the response status code should be 201                          # cucumber.definitions.ObjectDefinitions.the_response_status_code_should_be(java.lang.Integer)
-      java.lang.AssertionError: expected [201] but found [200]
-      	at org.testng.Assert.fail(Assert.java:111)
-      	at org.testng.Assert.failNotEquals(Assert.java:1578)
-      	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-      	at org.testng.Assert.assertEquals(Assert.java:132)
-      	at org.testng.Assert.assertEquals(Assert.java:1419)
-      	at org.testng.Assert.assertEquals(Assert.java:1383)
-      	at org.testng.Assert.assertEquals(Assert.java:1429)
-      	at cucumber.definitions.ObjectDefinitions.the_response_status_code_should_be(ObjectDefinitions.java:82)
-      	at ✽.the response status code should be 201(file:///D:/Bootcamp%20Intensive%20Selenium/Projects/Tugas/apiautomation/src/test/resources/objects.feature:17)
+  Then the response status code should be 200                          # cucumber.definitions.ObjectDefinitions.the_response_status_code_should_be(java.lang.Integer)
   And the object should be present in the object list                  # cucumber.definitions.ObjectDefinitions.the_object_should_be_present_in_the_object_list()
   And I can retrieve the object details and verify it                  # cucumber.definitions.ObjectDefinitions.i_can_retrieve_the_object_details_and_verify_it()
 ]]></system-out>
@@ -102,7 +81,7 @@ SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Delete the object and verify it is removed&quot;, &quot;End-to-End API Testing for Object Management&quot;](2)" classname="cucumber.runners.CucumberRunner" time="2.369">
+  <testcase name="runScenario[&quot;Delete the object and verify it is removed&quot;, &quot;End-to-End API Testing for Object Management&quot;](2)" classname="cucumber.runners.CucumberRunner" time="2.849">
     <system-out><![CDATA[
 Scenario: Delete the object and verify it is removed                   # src/test/resources/objects.feature:21
   Given the API is available                                           # cucumber.definitions.ObjectDefinitions.the_api_is_available()

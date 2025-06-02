@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-CucumberSuite" class="navigator-link">
-              <span class="suite-name border-failed">CucumberSuite</span>
+              <span class="suite-name border-passed">CucumberSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,21 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-CucumberSuite" class="hide-methods failed suite-CucumberSuite"> (hide)</a> <!-- hide-methods failed suite-CucumberSuite -->
-                      <a href="#" panel-name="suite-CucumberSuite" class="show-methods failed suite-CucumberSuite"> (show)</a> <!-- show-methods failed suite-CucumberSuite -->
-                    </span>
-                    <div class="method-list-content failed suite-CucumberSuite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-CucumberSuite" title="cucumber.runners.CucumberRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add a new object and verify its details&quot;, &quot;End-to-End API Testing for Object Management&quot;)">runScenario("Add a new object and verify its details", "End-to-End API Testing for Object Management")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-CucumberSuite -->
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -115,6 +101,11 @@
                       <a href="#" panel-name="suite-CucumberSuite" class="show-methods passed suite-CucumberSuite"> (show)</a> <!-- show-methods passed suite-CucumberSuite -->
                     </span>
                     <div class="method-list-content passed suite-CucumberSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CucumberSuite" title="cucumber.runners.CucumberRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add a new object and verify its details&quot;, &quot;End-to-End API Testing for Object Management&quot;)">runScenario("Add a new object and verify its details", "End-to-End API Testing for Object Management")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-CucumberSuite" title="cucumber.runners.CucumberRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Delete the object and verify it is removed&quot;, &quot;End-to-End API Testing for Object Management&quot;)">runScenario("Delete the object and verify it is removed", "End-to-End API Testing for Object Management")</a> <!-- method navigator-link -->
@@ -132,9 +123,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-CucumberSuite" class="panel CucumberSuite">
-          <div class="suite-CucumberSuite-class-failed">
+          <div class="suite-CucumberSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">cucumber.runners.CucumberRunner</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -144,23 +135,10 @@
                   </a> <!-- runScenario("Add a new object and verify its details", "End-to-End API Testing for Object Management") -->
                   <span class="method-name">runScenario</span>
                   <span class="parameters">("Add a new object and verify its details","End-to-End API Testing for Object Management")</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [201] but found [200]
-	at cucumber.definitions.ObjectDefinitions.the_response_status_code_should_be(ObjectDefinitions.java:82)
-	at ✽.the response status code should be 201(file:///D:/Bootcamp%20Intensive%20Selenium/Projects/Tugas/apiautomation/src/test/resources/objects.feature:17)
-... Removed 7 stack frames
-</div> <!-- stack-trace -->
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-CucumberSuite-class-failed -->
-          <div class="suite-CucumberSuite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">cucumber.runners.CucumberRunner</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
                   <a name="runScenario(&quot;Delete the object and verify it is removed&quot;, &quot;End-to-End API Testing for Object Management&quot;)">
@@ -237,16 +215,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'cucumber.runners.CucumberRunner')
-data.setCell(0, 3, 4659);
+data.setCell(0, 3, 12239);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
 data.setCell(1, 2, 'cucumber.runners.CucumberRunner')
-data.setCell(1, 3, 2371);
+data.setCell(1, 3, 2848);
 window.suiteTableData['CucumberSuite']= { tableData: data, tableDiv: 'times-div-CucumberSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <span class="suite-total-time">Total running time: 15 seconds</span>
               <div id="times-div-CucumberSuite">
               </div> <!-- times-div-CucumberSuite -->
             </div> <!-- times-div -->
@@ -274,22 +252,20 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">cucumber.runners.CucumberRunner</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@34e9fd99)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@292b08d6)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">runScenario("Add a new object and verify its details", "End-to-End API Testing for Object Management")</span>
-                <span class="method-start">472 ms</span>
+                <span class="method-start">1398 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Delete the object and verify it is removed", "End-to-End API Testing for Object Management")</span>
-                <span class="method-start">5136 ms</span>
+                <span class="method-start">13643 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">7509 ms</span>
+                <span class="method-start">16496 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
